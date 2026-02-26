@@ -1,6 +1,11 @@
 // import { useState } from 'react';
-// import css from './App.module.css';
+import CafeInfo from '../CafeInfo/CafeInfo';
+import css from './App.module.css';
 
 export default function App() {
-  return <></>;
+  return (
+    <div className={css.app}>
+      <CafeInfo />
+    </div>
+  );
 }
